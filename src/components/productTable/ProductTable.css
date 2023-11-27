@@ -1,0 +1,47 @@
+.table-container{
+    background-color: antiquewhite;
+    width: 80%;
+    margin: 0 auto;
+}
+.table{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.table .thead{
+    width: 100%;
+}
+
+.table .tr{
+    margin-top: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 2fr 1fr 1fr;
+    text-decoration: underline;
+    font-size: 16px;
+    background-color: rgb(152, 201, 74);
+    padding: 6px 0;
+    
+}
+
+
+
+ .table .body tr{
+    margin-top: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 2fr 1fr 1fr;
+    text-decoration: underline;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(197, 167, 228);
+   
+    
+}
+
+.table .body tr td{
+    border: 1px solid blue;
+    padding: 5px 0;
+}
+
