@@ -100,10 +100,10 @@ export default function ProductList({ products, setProducts }) {
           </div>
           <select name="select" id="select"
           onChange={(e) => setSelect(e.target.value)}>
-            <option>Select a colure</option>
-            <option>Red</option>
-            <option>Blue</option>
-            <option>Yallow</option>
+            <option value={""}>Select a colure</option>
+            <option value={Red}>Red</option>
+            <option value={Blue}>Blue</option>
+            <option value={Yallow}>Yallow</option>
           </select>
           <input type="submit" className="submit" value="Submit" required/>
         </form>
