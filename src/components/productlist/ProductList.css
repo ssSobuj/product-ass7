@@ -8,8 +8,9 @@
 .product-form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   padding: 50px;
+  text-align: center;
 }
 .product-form .submit {
   border-radius: 8px;
@@ -47,4 +48,18 @@
   flex-direction: column;
   justify-content: center;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 450px){
+
+
+}
+@media screen and (min-width: 450px) and (max-width: 850px){
+  .form-containet {
+    background-color: aquamarine;
+    border-radius: 20px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
 }

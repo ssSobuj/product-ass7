@@ -12,7 +12,7 @@ export default function ProductTable({products,deletProduct}) {
           <thead className="thead">
             <tr className="tr">
               <th>Id</th>
-              <th>Product Name</th>
+              <th>Product</th>
               <th>Price</th>
               <th>Quantity </th>
               <th>Description</th>

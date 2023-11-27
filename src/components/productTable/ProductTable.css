@@ -1,6 +1,6 @@
 .table-container{
     background-color: antiquewhite;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 .table{
@@ -30,7 +30,8 @@
  .table .body tr{
     margin-top: 10px;
     width: 100%;
-    display: grid;
+    text-align: center;
+    display: grid;    
     grid-template-columns: 1fr 2fr 1fr 1fr 2fr 1fr 1fr;
     text-decoration: underline;
     font-size: 16px;
@@ -43,5 +44,22 @@
 .table .body tr td{
     border: 1px solid blue;
     padding: 5px 0;
+    
 }
 
+@media screen and (max-width: 450px){
+    .table-container{
+        background-color: antiquewhite;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
+@media screen and (min-width: 450px) and (max-width: 850px){
+    .main-div{  
+        grid-template-columns:1fr;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
